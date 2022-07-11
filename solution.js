@@ -4,9 +4,9 @@ const int1 = 30;
 const int2 = 49;
 
 if ((int1 >= 50 && int1 <= 99) || (int2 >= 50 && int2 <= 99)) {
-  console.log("true");
+  console.log(true);
 } else {
-  console.log("false");
+  console.log(false);
 }
 
 //#2
