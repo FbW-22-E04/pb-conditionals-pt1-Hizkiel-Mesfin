@@ -18,9 +18,9 @@ if (
   (int2 >= 50 && int2 <= 99) ||
   (int3 >= 50 && int3 <= 99)
 ) {
-  console.log("true");
+  console.log(true);
 } else {
-  console.log("false");
+  console.log(false);
 }
 
 //#3
@@ -70,23 +70,23 @@ const int4 = 30;
 const int5 = 1;
 
 if (int4 + int5 === 8 || int4 - int5 === 8) {
-  console.log("true");
+  console.log(true);
 } else {
-  console.log("false");
+  console.log(false);
 }
 
 //#7
 if (int4 === 15 || int5 === 15 || int4 + int5 === 15) {
-  console.log("true");
+  console.log(true);
 } else {
-  console.log("false");
+  console.log(false);
 }
 
 //#8
 if (int4 % 7 === 0 || int4 % 11 === 0 || int5 % 7 === 0 || int5 % 11 === 0) {
-  console.log("true");
+  console.log(true);
 } else {
-  console.log("false");
+  console.log(false);
 }
 
 //#9
