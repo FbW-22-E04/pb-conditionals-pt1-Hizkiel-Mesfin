@@ -30,21 +30,21 @@ const b = 344;
 const c = 79;
 
 if (a > b && a > c) {
-  console.log("a");
+  console.log(a);
 } else if (b > a && b > c) {
-  console.log("b");
+  console.log(b);
 } else {
-  console.log("c");
+  console.log(c);
 }
 
 //************************ */
 
 if (int1 > int2 && int1 > int3) {
-  console.log("int1");
+  console.log(int1);
 } else if (int2 > int1 && int2 > int3) {
-  console.log("int2");
+  console.log(int2);
 } else {
-  console.log("int3");
+  console.log(int3);
 }
 
 //#4
@@ -102,7 +102,7 @@ if (int4 === int5) {
 if (int5 > 19) {
   console.log((int5 - 19) * 2);
 } else {
-  console.log(19 - int5);
+  console.log(int5 - 19);
 }
 
 //#11
